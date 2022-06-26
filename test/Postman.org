@@ -1,0 +1,19 @@
+#+begin_src restclient
+GET http://localhost:4000/api/workouts/
+#+end_src
+
+#+begin_src restclient
+GET http://localhost:4000/api/workouts/:id
+#+end_src
+
+#+begin_src restclient
+POST http://localhost:4000/api/workouts/
+#+end_src
+
+#+begin_src restclient
+DELETE http://localhost:4000/api/workouts/23
+#+end_src
+
+#+begin_src restclient
+PATCH http://localhost:4000/api/workouts/45
+#+end_src
